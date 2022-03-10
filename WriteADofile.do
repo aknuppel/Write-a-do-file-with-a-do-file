@@ -1,7 +1,7 @@
 *Making your dofile write a dofile based on information in a excel sheet or txt file
  clear
  
- cd "\\ad.ucl.ac.uk\homen\rmjlakn\Documents\Blogging\"
+ cd "..."
  import excel "ExampleExcelDoFilebase.xlsx", sheet("Sheet1") firstrow allstring
  tempname fh
 file open `fh' using "Dofile.do", write replace
